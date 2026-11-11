@@ -1,0 +1,52 @@
+[project]
+name = "dstoolbox"
+version = "2569.2"
+description = "สภาพแวดล้อมของรายวิชา 1145100 Data Science Toolbox"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "jupyterlab",
+    "ipykernel",
+    "nbstripout",
+    "jupytext",
+    "pytest",
+    "ruff",
+    "requests",
+    "truststore",
+    "python-dotenv",
+    "beautifulsoup4",
+    "duckdb>=1.5,<2",
+    "pyarrow",
+    "pandas",
+    "polars",
+    "ydata-profiling",
+    "setuptools<81",
+    "pandera",
+    "skimpy",
+    "missingno",
+    "seaborn",
+    "altair",
+    "vl-convert-python",
+    "plotly",
+    "pygwalker",
+    "datashader",
+    "scipy",
+    "statsmodels",
+    "ruptures",
+    "pingouin",
+    "scikit-learn",
+    "umap-learn",
+    "pyod",
+    "imbalanced-learn",
+    "faker",
+    "sdv",
+    "geopandas",
+    "folium",
+    "libpysal",
+    "esda",
+    "pykrige",
+    "streamlit",
+    "papermill",
+]
+
+[tool.uv]
+package = false
